@@ -1,3 +1,76 @@
 body {
     padding-top: 5rem;
+} 
+
+.body_block{
+    text-align: center;
+    background-color: #fff;
+    border:.5px solid rgb(158, 157, 157);
 }
+/*Top of profile*/
+.top{
+    background-image: linear-gradient(360deg, #535365 0%, #557365 80%);
+    padding-bottom: 10px;
+}
+
+.photo{
+    padding-top: 10px;
+    width: 20%;
+}
+
+.format{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+    text-align: center;
+}
+
+h1{
+    font-size: 20px;
+    color: #fff;
+}
+
+/*Bottom of card*/
+
+
+
+.bio{
+    text-align: left;    
+    padding-bottom: 20px;
+    line-height: 1.5em;
+    padding-top: 5px;
+    margin: 20px 30px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.listing{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: .75em;
+}
+ .listing .amt {
+     font-size: 18px;
+     font-weight: 700;
+ }
+
+
+ .listing .label{
+     font-size:17px ;
+ }
+
+ .btn{
+     background-color: #535365;
+     color: #fff;
+     border: #000;
+     padding: 8px 50px;
+     text-align: center;
+     margin-bottom: 30px ;
+ }

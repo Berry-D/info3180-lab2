@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="body_block">
+
+  <div class="top">
+      <img class="photo" src="{{ url_for("static", filename="mindset.png") }}">
+      <h1> Donald Berry</h1>
+
+      <ul class="format">
+        <li>@Berry</li>
+        <li>Kingston, Jamaica</li>
+        <li> Joined {{ Joined }}  </li>
+      </ul>
+
+  </div>
+  
+
+  <div class="bio">
+      <p> One of, if not the most nonchalant person I know is myself, Donald Berry. It is no surprise after that statement that you should expect that this nonchalant attitude has been a great effect on my life and to a lesser extent my writing. The first piece of writing that I can remember doing was an essay in primary school, it was for our Boy’s Day activities. I remember working hard at it and I also remembered placing third in the essay competition. That is where my dislike for writing began. In high school I can recall that most of my writings were just the basic and only for a grade. I didn’t like writing.</p>
+  </div>
+
+    <ul class="flex">
+      <li class="listing">
+        <p class="amt">7</p>
+        <p class="label">Post</p>
+      </li>
+
+      <li class="listing">
+        <p class="amt">100</p>
+        <p class="label">Following</p>
+      </li>
+
+      <li class="listing">
+        <p class="amt">250</p>
+        <p class="label">Followers</p>
+      </li>
+    </ul>
+
+
+    <button class="btn"> Follow </button>
+  </div>
+
+{% endblock %}
